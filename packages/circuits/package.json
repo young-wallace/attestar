@@ -4,8 +4,8 @@
   "private": true,
   "description": "Circom solvency (proof-of-reserves-and-liabilities) circuit for Attestar.",
   "scripts": {
-    "build": "bash scripts/build.sh solvency",
-    "build:test": "bash scripts/build.sh solvency_test",
+    "build": "node init && bash scripts/build.sh solvency",
+    "build:test": "node init && bash scripts/build.sh solvency_test",
     "ptau": "bash scripts/ptau.sh"
   },
   "devDependencies": {
